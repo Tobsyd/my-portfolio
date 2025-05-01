@@ -1,0 +1,267 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+background: white;
+}
+section{
+    color: black;
+}
+
+div{
+    color:black;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#first {
+    background: url(p2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.top, .a1, .b1, .i1{
+    color: green;
+    background: none;
+    text-decoration: none;
+    margin-top:20px;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.b1, .i1{
+    margin: 0px;
+}
+
+.b1 {
+    padding: 2px;
+}
+
+.fit{
+    display: flex;
+    justify-content: center;
+}
+.first-text{
+    margin: 0px;
+    text-align: center;
+    
+}
+
+.p1, .b2, .a2{
+    margin: 80px 0% 0px 0px;
+}
+
+
+.first-image{
+    padding: 50px;
+    align-items: right;
+}
+
+.i2{
+    margin-left: 100px;
+    margin-top: 0px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 0px;
+}
+
+#biography{
+    background: url(p4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.d{
+    align-items: center;
+    justify-content: center;
+}
+
+.bio-image{
+    margin: 50px 30px 50px 100px ;
+    padding: 0px;
+}
+
+.mg1{
+    border: 10px solid white;
+    border-radius: 50px;
+    padding: 0px;
+}
+
+.bio-text{
+    margin-left: 10px;
+    margin-top:90px ;
+    padding: 0%;
+}
+
+.bio-details{
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 0%;
+}
+
+.bio-hire{
+    margin: 30px 40px 0 0;
+}
+
+#WhatIDo{
+    background: gray;
+    justify-content: center;
+    text-align: center;
+    margin:0px;
+}
+
+.wid{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.w{
+    background: white;
+    text-align: center;
+}
+
+#skills{
+    background: goldenrod;
+    margin: 0px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.s1{
+    margin:0px 100px 0px 0px;
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+}
+
+.s2{
+    margin: 30px;
+    text-align: center;
+}
+
+.s3{
+    margin: 50px;
+}
+
+.ing1{
+    border: 10px solid deepskyblue;
+    border-radius: 50px;
+}
+
+#works{
+    background: white;
+    justify-content: center;
+    display: flex;
+    margin-left: 100px;
+}
+
+.wors{
+    margin: 20px;
+}
+
+.myy{
+    margin: 0px 50px 0px 0px;
+    border: 10px solid deepskyblue;
+    border-radius: 20px;
+}
+
+#testimonial{
+    background: pink;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-left: 50px ;
+
+}
+
+#Success{
+    background: dodgerblue;
+    margin: 0px;
+}
+
+.su1{
+    margin: 0px 500px;
+    text-align: center;
+}
+
+.su2{
+    justify-content: center;
+    display: flex;
+}
+
+.img1 , .img2, .img3, .img4{
+    margin-left: 100px;
+    border: 2px solid deeppink;
+    border-radius: 20px;
+    padding: 0px;
+}
+
+#Works-logo{
+    background: deepskyblue;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    padding: 10px;
+}
+
+.wor{
+    border: 10px solid white;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+#Contact{
+    background: peru; 
+    display: flex;
+    justify-content: center;
+}
+
+.con{
+    border: 2px solid burlywood;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    #biography, #first {
+        flex-direction: column;
+    }
+    #WhatIDo, #Skills, #works, #testimonial, #Success, #Works-logo, #contact {
+        flex-direction: column;
+    }
+    .top, .first-text, .su1, .su2{
+        flex-direction: column;
+        display: grid;
+    }
+    .su1{
+        text-align: center;
+        margin: auto;
+    }
+    img {
+        flex-direction: column;
+        width: 40%;
+    }
+}
